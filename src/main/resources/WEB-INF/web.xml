@@ -1,0 +1,9 @@
+<filter>
+    <filter-name>customCORSFilter</filter-name>
+    <filter-class>com.jsh.jwt_study.config.CustomCORSFilter</filter-class>
+</filter>
+
+<filter-mapping>
+<filter-name>customCORSFilter</filter-name>
+<url-pattern>/api/*</url-pattern>
+</filter-mapping>
